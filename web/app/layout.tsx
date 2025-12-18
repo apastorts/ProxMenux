@@ -7,13 +7,17 @@ import type React from "react"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "ProxMenux - Menu-Driven Script for Proxmox VE Management",
+  title: "ProxMenux - Menu-Driven Script for Proxmox Servers",
   generator: "Next.js",
   applicationName: "ProxMenux",
   referrer: "origin-when-cross-origin",
   keywords: [
     "Proxmox VE",
     "Proxmox",
+    "Proxmox Server",
+    "proxmox helper scripts",
+    "proxmox backups",
+    "proxmox servers",
     "PVE",
     "ProxMenux",
     "MacRimi",
@@ -31,7 +35,7 @@ export const metadata = {
   creator: "MacRimi",
   publisher: "MacRimi",
   description:
-    "ProxMenux is a powerful menu-driven script for Proxmox VE management, designed to simplify and streamline the execution of commands and tasks. Manage VMs, containers, networking, storage, and more with an intuitive interface.",
+    "ProxMenux - Proxmox server management tool with interactive menu, proxmox backup solutions, and simplified administration for virtualization",
   formatDetection: {
     email: false,
     address: false,
@@ -42,9 +46,9 @@ export const metadata = {
     canonical: "https://proxmenux.com",
   },
   openGraph: {
-    title: "ProxMenux - Menu-Driven Script for Proxmox VE Management",
+    title: "ProxMenux - Menu-Driven Script for Proxmox Servers",
     description:
-      "ProxMenux is a powerful menu-driven script for Proxmox VE management, designed to simplify and streamline the execution of commands and tasks. Manage VMs, containers, networking, storage, and more.",
+      "ProxMenux - Proxmox server management tool with interactive menu, proxmox backup solutions, and simplified administration for virtualization",
     url: "https://proxmenux.com",
     siteName: "ProxMenux",
     images: [
@@ -60,9 +64,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ProxMenux - Menu-Driven Script for Proxmox VE",
+    title: "ProxMenux - Menu-Driven Script for Proxmox Servers",
     description:
-      "Powerful menu-driven script for Proxmox VE management. Simplify VM, container, networking, and storage management with an intuitive interface.",
+      "ProxMenux - Proxmox server management tool with interactive menu, proxmox backup solutions, and simplified administration for virtualization",
     images: ["https://proxmenux.com/main.png"],
     creator: "@MacRimi",
   },
