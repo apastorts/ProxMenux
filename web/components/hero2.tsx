@@ -17,8 +17,8 @@ export default function Hero() {
           </span>
         </h1>
         <p className="text-base sm:text-lg mb-8 max-w-4xl mx-auto text-gray-300">
-          ProxMenux is a management tool for Proxmox VE that simplifies system administration through an interactive
-          menu, allowing you to execute commands and scripts with ease.
+          ProxMenux is a professional management tool designed to simplify system administration for proxmox server environments. 
+          Whether you're managing a single proxmox server or multiple virtual machines, ProxMenux provides an intuitive interactive menu interface that streamlines complex administrative tasks.
         </p>
         <div className="flex justify-center">
           <Button size="lg" className="bg-blue-500 hover:bg-blue-600" asChild>
