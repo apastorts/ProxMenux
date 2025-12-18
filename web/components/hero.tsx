@@ -11,12 +11,11 @@ export default function Hero() {
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6">
         ProxMenux{" "}
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-        An Interactive Menu for Proxmox VE Management
+        An Interactive Menu for Proxmox Servers
         </span>
       </h1>
       <p className="text-base sm:text-lg md:text-xl mb-8 max-w-4xl mx-auto text-gray-300">
-      ProxMenux is a management tool for Proxmox VE that simplifies system administration 
-      through an interactive menu, allowing you to execute commands and scripts with ease.
+      ProxMenux - Proxmox server management tool with interactive menu, proxmox backup solutions, and simplified administration for virtualization.
       </p>
       <div className="flex justify-center">
         <Button size="lg" className="bg-blue-500 hover:bg-blue-600" asChild>
